@@ -1,5 +1,6 @@
 # Tracing allocator for Rust
 
+可log rust 堆栈内存分配和析构的信息，并记录在文件中，logs all memory actions for further analysis。
 This project allows you to log all the allocations to a file.
 
 To include it in your project, initialize the library with a file like this:
